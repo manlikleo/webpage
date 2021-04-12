@@ -2051,3 +2051,42 @@ body.modal{overflow: hidden;}
 	.shane_tm_news .news_list ul{margin: 0px;}
 	.shane_tm_news .news_list ul li{padding: 0px;width: 100%;}
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+	.list_inner{
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	
+	.list_inner{
+		margin-top: 3rem;
+		width: 20%;
+	}
+}
+
+.socialicon{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.fab{
+	color: #FFF;
+}
+
+.background{
+	background-image: url(../img/portfolio/letwork.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
